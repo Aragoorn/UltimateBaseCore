@@ -1,21 +1,12 @@
 {
-  "name": "basebuilderproject",
+  "name": "ultimate-base-core",
   "version": "1.0.0",
-  "type": "module",
+  "description": "A smart contract for staking and SBT minting on Base network",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
-    "@nomicfoundation/hardhat-toolbox": "^6.1.2",
-    "@openzeppelin/hardhat-upgrades": "^3.0.0",
-    "hardhat": "^2.22.0"
-  },
-  "dependencies": {
-    "@openzeppelin/contracts": "^5.6.1",
-    "@openzeppelin/contracts-upgradeable": "^5.6.1"
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@types/node": "^20.0.0",
+    "hardhat": "^2.22.0",
+    "typescript": "^5.0.0"
   }
 }
